@@ -22,7 +22,7 @@
         
     </title>
 
-    <link rel="canonical" href="http://owen-blog.unubo.app/">
+    <link rel="canonical" href="http://owen-blog.unubo.app/tags/技巧-工具/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -43,8 +43,8 @@
 <!-- hack iOS CSS :active style -->
 <body ontouchstart="" class="animated fadeIn">
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "false" data-istags="false
-" data-ishome = "true" >
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "false" data-istags="true
+" data-ishome = "false" >
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -133,126 +133,6 @@
 <!-- Main Content -->
 
 
-<style>
-
-    .custom-haojen-container .post-preview:nth-of-type(1),
-    .custom-haojen-container .post-preview-poetry:nth-of-type(1) {
-        text-align: center;
-        background-repeat: no-repeat;
-        border-radius: 3px;
-        background-size: cover;
-        padding: 0;
-        height: 300px;
-        display: table;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.16);
-    }
-
-    /*去掉诗歌的背景图片*/
-    .custom-haojen-container .post-preview-poetry:nth-of-type(1) {
-        background-image: none !important;
-        background-color: rgba(255, 248, 220, 0.5);
-    }
-
-    .custom-haojen-container .post-preview:nth-child(1) h2,
-    .custom-haojen-container .post-preview:nth-child(1) .post-meta,
-    .custom-haojen-container .post-preview:nth-child(1) .post-subtitle {
-        text-shadow: 0 0 40px rgba(0, 0, 0, 1);
-        letter-spacing: 1px;
-        color: #fff;
-        margin-top: 0;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-
-    .custom-haojen-container .post-preview:nth-child(1) .post-meta {
-        font-size: .9em;
-        font-weight: 300;
-        margin-top: 0;
-    }
-
-    .custom-haojen-container .post-preview-poetry:nth-child(1) .post-subtitle {
-        letter-spacing: 6px;
-        font-size: 18px;
-        font-family: unset;
-        font-weight: 400;
-        color: rgba(0, 0, 0, .75)
-    }
-
-    /*不显示摘要*/
-    .custom-haojen-container .post-preview:nth-child(1) .post-content-preview {
-        display: none
-    }
-
-    /*只第一个显示背景图片*/
-    .custom-haojen-container .post-preview:not(:nth-child(1)) {
-        background-image: none !important;
-    }
-
-    /*第一个分界线去掉*/
-    .custom-haojen-container hr:nth-of-type(1) {
-        display: none;
-    }
-
-    /*主题*/
-    .custom-haojen-container .post-preview:nth-of-type(1) > a {
-        display: table-cell;
-        vertical-align: middle;
-    }
-
-    /*诗词标题*/
-    .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
-        font-size: 35px;
-        font-family: STKaiti;
-        color: rgba(0, 0, 0, .8);
-    }
-
-    .custom-haojen-container .post-preview-poetry:nth-of-type(1) .post-meta {
-        color: #0e2231;
-    }
-
-    @media (max-width: 768px) {
-        .custom-haojen-container .post-preview:nth-child(1) {
-            height: 240px;
-        }
-
-        .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
-            font-size: 28px !important;
-            margin-top: 0;
-        }
-
-        .custom-haojen-container .post-preview:nth-child(1) .post-subtitle {
-            font-size: 18px;
-            font-weight: 400;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        .custom-haojen-container .post-preview:nth-of-type(1) > a {
-            padding: 20px
-        }
-    }
-
-    /*手机屏幕*/
-    @media (max-width: 400px) {
-        .custom-haojen-container .post-preview:nth-child(1) {
-            height: 195px;
-        }
-
-        .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
-            font-size: 20px !important;
-        }
-
-        .custom-haojen-container .post-preview:nth-child(1) .post-subtitle {
-            font-size: 16px;
-        }
-
-        .custom-haojen-container .post-preview:nth-child(1) a {
-            padding: 30px 20px;
-        }
-    }
-</style>
-
 <!-- Page Header -->
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block">
     <div class="row">
@@ -281,58 +161,6 @@
 
 <div class="post-preview "
      style="background-image: url('')">
-    <a href="/2019/11/13/寻找小区内两栋楼的最近路线/">
-        <h2 class="post-title">
-            未命名
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-11-13
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-最近看到一到蓝桥杯比赛的算法题，计算两栋楼之间的最短距离。我忽然意识到这道题其实在实际生活中也有着应用，今天就和大家分享一下这道竞赛算法题。
-
-1.题目X星球居民小区的楼房全是一样的，并且按矩阵样式排列。其楼房的编号为1,2,3…当排满一行时，从下一行相邻的楼往反方向排号。比如：当小区排号宽度..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('/images/earth.jpeg')">
-    <a href="/2019/10/22/第一个副业项目ToolStore上线/">
-        <h2 class="post-title">
-            第一个副业项目ToolStore上线
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-10-22
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-在每个人都想成为斜杠青年的今天，做一个什么样的副业一直困扰着我。不久之前我决定不再犹豫等待，先做一个产品再说，只要有第一步后面就容易了。
-
-1.为什么我要做一个副业产品其实这个问题的答案比较直白，就是给自己准备一个planB。在职场工作过几年之后，见过了很多同事”被离职“。也从各种媒体上经常看..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
     <a href="/2019/09/30/禁止HomeBrew每次安装前自动更新/">
         <h2 class="post-title">
             禁止HomeBrew每次安装前自动更新
@@ -345,140 +173,6 @@
             <p>
                 export HOMEBREW_NO_AUTO_UPDATE=true
 
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('/images/hanxin.bmp')">
-    <a href="/2019/09/29/别人成功的经验也不能照搬/">
-        <h2 class="post-title">
-            别人成功的经验也不能照搬
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-29
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-都说别人走过的路都是安全的，但是别人能做成功的事情你照着做也不一定能成功。
-
-这是我从得到上听到的一期节目，但是我觉得对我启发很深，写下来和大家分享。
-
-1.一个以少胜多的故事故事发生在公元前204年，故事的主人公是大名鼎鼎的韩信。我们都知道韩信是军事天才，常言道韩信将兵，多多益善。听完这个故..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('/images/earth.jpeg')">
-    <a href="/2019/09/27/我的周报-第一期/">
-        <h2 class="post-title">
-            我的周报-第一期
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-27
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-每周我都会在这里发布我的周报，向大家汇报一下一周的side project进度，学习与成长。
-
-工作
-freelance Info站点后台完成创建和查询接口，支持分页查询。
-前端页面只完成了页面搭建，至少还有两个页面需要完成。
-个人博客现在已经基本成形，本周解决了引入图片的问题。
-
-学习
-一直..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/09/25/关于未来的发展方向/">
-        <h2 class="post-title">
-            关于未来的发展方向
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-25
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                今年是工作的第6个年头，时间真是脱缰的野马。急匆匆的从你的身边跑过，而你却只能望着它渐行渐远的背影，暗自感叹岁月不饶人。
-快到中国程序员最危险的35岁了，关于自己的未来也思考了很久。是时候决定未来的路该怎么走了。曾几何时，想要按照升级打怪的思路来经营自己的职业生涯，不断努力，不断升职加薪。后来被..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/09/02/面试时间非常短可能不是因为你不优秀/">
-        <h2 class="post-title">
-            面试时间非常短可能不是因为你不优秀
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-02
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                不知道大家有有没有遇到过面试时间非常短的情况？我之前确实遇到过几次，当时还是一头雾水，最近的一次体验让我了解到了一个可能的原因。
-最近我们公司一直在招人，但是一直也找不到合适的人，现在的情况都是低水平的人一大把，高水平的人根本找不见。有一天HR推了很多简历给我，我一看都是工作经历很短，技术栈也不..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/08/22/为什么水果很少有品牌/">
-        <h2 class="post-title">
-            [随笔]为什么水果很少有品牌
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-08-22
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-最近在抖音上关注了一个做水果批发的大哥，他谈了很多水果界的一些有深度的问题。明显能感觉到他对水果行业的玩法理解的很深，一些看似简单的问题的背后有着深层的原因。
-1.为什么水果很少有品牌这里的品牌指的不是品种，比如我们经常在超市里见到的红富士苹果。这里红富士就是一个水果品种，而不是品牌。
-为什么..
             </p>
         </div>
     </a>
