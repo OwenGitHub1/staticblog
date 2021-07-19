@@ -5,46 +5,105 @@
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="run faster">
-    <meta name="keyword" content="技术,前端,程序员">
-    <meta name="theme-color" content="#600090">
-    <meta name="msapplication-navbutton-color" content="#600090">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
-    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
-    <link rel="alternate" type="application/atom+xml" title="Owen" href="/atom.xml">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
+    <meta name="description" content>
+    <meta name="keyword" content>
+    <link rel="shortcut icon" href="/img/ironman-draw.png">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-        Owen&#39;s Blog
+          Owen大前端时代 | owen wei
         
     </title>
 
-    <link rel="canonical" href="http://owen-blog.unubo.app/archives/">
+    <link rel="canonical" href="http://yoursite-url/archives/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/blog-style.css">
+    <!-- Custom CSS --> 
+    <link rel="stylesheet" href="/css/beantech.min.css">
+    
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="/css/highlight.css">
 
-    <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/widget.css">
+
+    <link rel="stylesheet" href="/css/rocket.css">
+
+    <link rel="stylesheet" href="/css/signature.css">
+
+    <link rel="stylesheet" href="/css/toc.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
 </head>
 
-<style>
 
-    header.intro-header {
-        background-image: url('/images/bac.jpeg')
-    }
-</style>
 <!-- hack iOS CSS :active style -->
-<body ontouchstart="" class="animated fadeIn">
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "false" data-istags="false
-" data-ishome = "false" >
+<body ontouchstart="">
+	<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        
+            background-image: url('/undefined')
+            /*page*/
+        
+    }
+    
+    #signature{
+        background-image: url('/img/signature/BeanTechSign-white.png');
+    }
+    
+</style>
+
+<header class="intro-header" >
+    <!-- Signature -->
+    <div id="signature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+                    <div class="site-heading">
+                        <h1>Owen大前端时代</h1>
+                        <!--<hr class="small">-->
+                        <span class="subheading">纸上得来终觉浅，绝知此事要躬行。</span>
+                    </div>
+                
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+	
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -54,12 +113,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand animated pulse" href="/">
-                <span class="brand-logo">
-                    Owen
-                </span>
-                's Blog
-            </a>
+            <a class="navbar-brand" href="/">Owen大前端时代</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,36 +122,43 @@
             so, when navbar scale out, the <nav> will cover tags.
             also mask any touch event of tags, unfortunately.
         -->
-        <!-- /.navbar-collapse -->
         <div id="huxblog_navbar">
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="/">Home</a>
                     </li>
-					
+
                     
+
                         
-							
-                        <li>
-                            <a href="/About/">About</a>
-                        </li>
-							
-						
                     
+
                         
-							
                         <li>
-                            <a href="/Tags/">Tags</a>
+                            <a href="/archive/">Archives</a>
                         </li>
-							
-						
+                        
                     
-					
-					
+
+                        
+                        <li>
+                            <a href="/about/">About</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/tags/">Tags</a>
+                        </li>
+                        
+                    
+                    
                 </ul>
             </div>
         </div>
+        <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
 </nav>
@@ -105,7 +166,7 @@
     // Drop Bootstarp low-performance Navbar
     // Use customize navbar with high-quality material design animation
     // in high-perf jank-free CSS3 implementation
-//    var $body   = document.body;
+    var $body   = document.body;
     var $toggle = document.querySelector('.navbar-toggle');
     var $navbar = document.querySelector('#huxblog_navbar');
     var $collapse = document.querySelector('.navbar-collapse');
@@ -130,337 +191,242 @@
     }
 </script>
 
-<!-- Main Content -->
 
-
-<!-- Page Header -->
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block">
+    <!-- Main Content -->
+    <!-- Main Content -->
+<div class="container">
     <div class="row">
-        <header class="intro-header">
-            <div class="container">
-                <div class="site-heading text-center">
-                    <div class="about-me">
-                        <!--移动端头部显示-->
-                        <img src="/images/owen.jpg"/>
-                        <h5><a href="/about/">Owen Wei</a></h5>
-                        <p>一个有理想的程序员</p>
-                    </div>
-                </div>
+        
+
+<!-- USE SIDEBAR -->
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                post-container
+            ">
+            
+                
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 归档列表 -->
+            
+            
+
+             <!-- 归档列表 -->
+
+            
+            <div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2021">
+                    <span class="tag-text">2021</span>
+                </span>
+                <ul>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    07-18
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/2021/07/18/comapreMethodsAndComputedInVue/" style="color: #0085a1">
+                        <span>
+                            【Vue】methods和computed的区别
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
+                
+                </ul>
             </div>
-        </header>
+            
+            <div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2017">
+                    <span class="tag-text">2017</span>
+                </span>
+                <ul>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    03-18
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/2017/03/18/hexo-theme-beantech/" style="color: #0085a1">
+                        <span>
+                            [Hexo] Theme BeanTech
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
+                
+                </ul>
+            </div>
+            
+
+
+        </div>
     </div>
 </div>
-<!-- Main Content -->
-<div class="container custom-haojen-container">
-    <!-- Post Container -->
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
-            <!-- Main Content -->
 
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/11/13/寻找小区内两栋楼的最近路线/">
-        <h2 class="post-title">
-            未命名
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-11-13
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
+                <!-- 如果开启评论功能 -->
                 
-最近看到一到蓝桥杯比赛的算法题，计算两栋楼之间的最短距离。我忽然意识到这道题其实在实际生活中也有着应用，今天就和大家分享一下这道竞赛算法题。
+            </div>
 
-1.题目X星球居民小区的楼房全是一样的，并且按矩阵样式排列。其楼房的编号为1,2,3…当排满一行时，从下一行相邻的楼往反方向排号。比如：当小区排号宽度..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('/images/earth.jpeg')">
-    <a href="/2019/10/22/第一个副业项目ToolStore上线/">
-        <h2 class="post-title">
-            第一个副业项目ToolStore上线
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-10-22
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-在每个人都想成为斜杠青年的今天，做一个什么样的副业一直困扰着我。不久之前我决定不再犹豫等待，先做一个产品再说，只要有第一步后面就容易了。
-
-1.为什么我要做一个副业产品其实这个问题的答案比较直白，就是给自己准备一个planB。在职场工作过几年之后，见过了很多同事”被离职“。也从各种媒体上经常看..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/09/30/禁止HomeBrew每次安装前自动更新/">
-        <h2 class="post-title">
-            禁止HomeBrew每次安装前自动更新
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-30
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                export HOMEBREW_NO_AUTO_UPDATE=true
-
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('/images/hanxin.bmp')">
-    <a href="/2019/09/29/别人成功的经验也不能照搬/">
-        <h2 class="post-title">
-            别人成功的经验也不能照搬
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-29
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-都说别人走过的路都是安全的，但是别人能做成功的事情你照着做也不一定能成功。
-
-这是我从得到上听到的一期节目，但是我觉得对我启发很深，写下来和大家分享。
-
-1.一个以少胜多的故事故事发生在公元前204年，故事的主人公是大名鼎鼎的韩信。我们都知道韩信是军事天才，常言道韩信将兵，多多益善。听完这个故..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('/images/earth.jpeg')">
-    <a href="/2019/09/27/我的周报-第一期/">
-        <h2 class="post-title">
-            我的周报-第一期
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-27
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-每周我都会在这里发布我的周报，向大家汇报一下一周的side project进度，学习与成长。
-
-工作
-freelance Info站点后台完成创建和查询接口，支持分页查询。
-前端页面只完成了页面搭建，至少还有两个页面需要完成。
-个人博客现在已经基本成形，本周解决了引入图片的问题。
-
-学习
-一直..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/09/25/关于未来的发展方向/">
-        <h2 class="post-title">
-            关于未来的发展方向
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-25
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                今年是工作的第6个年头，时间真是脱缰的野马。急匆匆的从你的身边跑过，而你却只能望着它渐行渐远的背影，暗自感叹岁月不饶人。
-快到中国程序员最危险的35岁了，关于自己的未来也思考了很久。是时候决定未来的路该怎么走了。曾几何时，想要按照升级打怪的思路来经营自己的职业生涯，不断努力，不断升职加薪。后来被..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/09/02/面试时间非常短可能不是因为你不优秀/">
-        <h2 class="post-title">
-            面试时间非常短可能不是因为你不优秀
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-02
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                不知道大家有有没有遇到过面试时间非常短的情况？我之前确实遇到过几次，当时还是一头雾水，最近的一次体验让我了解到了一个可能的原因。
-最近我们公司一直在招人，但是一直也找不到合适的人，现在的情况都是低水平的人一大把，高水平的人根本找不见。有一天HR推了很多简历给我，我一看都是工作经历很短，技术栈也不..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2019/08/22/为什么水果很少有品牌/">
-        <h2 class="post-title">
-            [随笔]为什么水果很少有品牌
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-08-22
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                
-最近在抖音上关注了一个做水果批发的大哥，他谈了很多水果界的一些有深度的问题。明显能感觉到他对水果行业的玩法理解的很深，一些看似简单的问题的背后有着深层的原因。
-1.为什么水果很少有品牌这里的品牌指的不是品种，比如我们经常在超市里见到的红富士苹果。这里红富士就是一个水果品种，而不是品牌。
-为什么..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-
-<!-- 翻页 pager -->
-
-<ul class="pager">
+          <!-- Sidebar Container -->
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
     
+        <!-- Featured Tags -->
+
+<section>
+    <!-- no hr -->
+    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+            
+        
+            
+        
+            
+        
+    </div>
+</section>
+
+        <hr>
+    
+        <!-- Short About -->
+<section class="visible-md visible-lg">
+    <h5><a href="/about/">ABOUT ME</a></h5>
+    <div class="short-about">
+
+        
+            <img id = "avatar_pic" src="/img/ironman-draw.png" />
+        
+
+        
+            <p>前端开发；爱打羽毛球</p>
+        
+
+        <!-- SNS Link -->
+        <ul class="list-inline">
+            
+            
+                <li>
+                    <a target="_blank" href="https://twitter.com/Owen43552950">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+            
+            
+                <li>
+                    <a target="_blank" href="https://www.zhihu.com/people/owen-22-74">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa  fa-stack-1x fa-inverse">知</i>
+                        </span>
+                    </a>
+                </li>
+            
+
+            
+
+            
+
+            
+                <li>
+                    <a target="_blank"  href="https://github.com/OwenGitHub1">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+            
+            
+            
+            
+                <li>
+                    <a target="_blank"  href="https://www.linkedin.com/in/永-魏-317964b7">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</section>
+        <hr>
+    
+        
+  <h5>RECENT POSTS</h3>
+  <div class="widget">
+    <ul>
+      
+        <li>
+          <a href="/2021/07/18/comapreMethodsAndComputedInVue/">【Vue】methods和computed的区别</a>
+        </li>
+      
+        <li>
+          <a href="/2017/03/18/hexo-theme-beantech/">[Hexo] Theme BeanTech</a>
+        </li>
+      
+    </ul>
+  </div>
+
+        <hr>
+    
+        <!-- Friends Blog -->
+
+<h5>FRIENDS</h5>
+<ul class="list-inline">
+
+    
+        <li><a href="https://xiaozhuanlan.com/frontage" target="_blank">小专栏</a></li>
     
 </ul>
 
+        <hr>
+    
+</div>
 
-        </div>
-        <!-- Sidebar Container -->
-        <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
-
-            <!-- About Me -->
-            <section class="visible-md visible-lg" style="padding: 0 18px">
-                <div class="short-about">
-                    <!--侧边栏头像-->
-                    
-                    <img src="/images/owen.jpg"/>
-                    
-                    <h5><a href="/about/">Owen Wei</a></h5>
-                    
-                    <p>一个有理想的程序员</p>
-                    
-                    <hr>
-                    <!-- SNS Link 社交 -->
-                    <ul class="list-inline">
-                        
-                        
-                        
-                        <li>
-                            <a target="_blank" href="https://www.zhihu.com/people/owen-22-74">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa  fa-stack-1x fa-inverse">知</i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-
-                        
-
-                        
-                        <li>
-                            <a target="_blank" href="https://github.com/OwenGitHub1">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Featured Tags  标签 -->
-            
-
-            
-            <hr>
-            <h5 style="text-align: center;">Friends</h5>
-            <ul class="list-inline" style="text-align: center;">
-                
-                <li><a href="http://www.ruanyifeng.com/blog/" target="_blank">阮一峰的网络日志</a></li>
-                
-            </ul>
-            
-
-        </div>
+        
     </div>
 </div>
 
-<!-- Footer -->
-<!-- Footer -->
+
+    <!-- Footer -->
+    <!-- Footer -->
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
-                <br>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                 
+                
+                    <li>
+                        <a target="_blank" href="https://twitter.com/Owen43552950">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
                 
                 
                     <li>
@@ -489,16 +455,31 @@ freelance Info站点后台完成创建和查询接口，支持分页查询。
                 
 
                 
+                    <li>
+                        <a target="_blank"  href="https://www.linkedin.com/in/永-魏-317964b7">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
 
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; Owen 2019
+                    Copyright &copy; Yong Wei 2021 
                     <br>
-                    <span id="busuanzi_container_site_pv" style="font-size: 12px;">PV: <span id="busuanzi_value_site_pv"></span> Times</span>
-                    <br>
-                    Theme by <a href="https://haojen.github.io/">Haojen Ma</a>
+                    Theme by <a href="http://huangxuan.me">Hux</a> 
+                    <span style="display: inline-block; margin: 0 5px;">
+                        <i class="fa fa-heart"></i>
+                    </span> 
+                    re-Ported by <a href="http://beantech.org">BeanTech</a> | 
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="91px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=YenYuHsuan&repo=hexo-theme-beantech&type=star&count=true" >
+                    </iframe>
                 </p>
-
             </div>
         </div>
     </div>
@@ -511,7 +492,8 @@ freelance Info站点后台完成创建和查询接口，支持分页查询。
 <script src="/js/bootstrap.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="/js/blog.js"></script>
+<script src="/js/hux-blog.min.js"></script>
+
 
 <!-- async load function -->
 <script>
@@ -525,11 +507,30 @@ freelance Info站点后台完成创建和查询接口，支持分页查询。
     }
 </script>
 
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
 <!-- jquery.tagcloud.js -->
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("http://owen-blog.unubo.app/js/jquery.tagcloud.js",function(){
+        async("http://yoursite-url/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
@@ -541,47 +542,48 @@ freelance Info站点后台完成创建和查询接口，支持分页查询。
 
 <!--fastClick.js -->
 <script>
-    async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
         var $nav = document.querySelector("nav");
         if($nav) FastClick.attach($nav);
     })
 </script>
 
 
-
 <!-- Google Analytics -->
+
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-XXXXXXXX-X';
+    var _gaDomain = 'yoursite';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
 
 
 
 <!-- Baidu Tongji -->
 
-<script>
-    var _baId = 'a2168a2cec8d41fc7b31eb82db12f2b4';
-    // Originial
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?" + _baId;
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
 
 
-<!-- swiftype -->
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
 
-  _st('install','','2.0.0');
-</script>
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-<!--wechat title img-->
-<img class="wechat-title-img" src="/images/owen.jpg">
+	<a id="rocket" href="#top" class=""></a>
+	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
+<!-- Image to hack wechat -->
+<img src="http://yoursite-url/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
 </body>
 
 </html>
